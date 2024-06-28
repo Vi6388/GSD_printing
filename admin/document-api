@@ -1,0 +1,58 @@
+1. Not Available files and UI and Not working
+-------------------
+-- Task And Goals 
+-- Calendar
+-- Documents
+-- Marketing
+-- My Social
+-- Business Tools
+-- Statistics 
+-- Shop
+-- Finance
+-- File Manager
+
+
+2. Same Api Connected
+-- Manage Users 
+    Operators, Admin
+--Manage Others
+    Location
+    FAQ,
+    Online Course
+
+3. Not Connect Api 
+''''''''''''''
+--Ranking 
+--Progression
+--Event | Testing, Instructor, Seminars, Other Event Not Ui
+-- Finance
+-- Setting
+
+-- Contact | Lead, Relationship, not working api
+             Vendor files are not Available 
+
+
+4. Working and Available Apis
+''''''''''''''
+--Users -> http://localhost:5000/auth/all_user_details
+--Users search - http://localhost:5000/api/auth/particular_user/ Not working
+
+--Event| Tournament - http://localhost:5000/api/event/all/all
+-- Event | Tournament Info - http://localhost:5000/api/event/info/
+
+--Manage Users 
+    Members - http://localhost:5000/api/client-contact Post Api
+    Member - http://localhost:5000/api/client-contact get Api working but data is not get on the table
+
+
+5. Not Show on Ui and Working
+''''''''''''''
+-- Contact | client, Employee, 
+
+        Employee Sidebar Post http://localhost:5000/api/contacts/employee/list 
+                      Delete http://localhost:5000/api/employee-contact/list
+            Position Post http://localhost:5000/api/employee-contact/position
+                     Get http://localhost:5000/api/employee-contact/position
+        
+
+

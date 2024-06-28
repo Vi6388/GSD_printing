@@ -1,0 +1,19 @@
+{
+    "swaggerDefinition": {
+      "info": {
+        "title": "Printing Server App API",
+        "version": "1.0.0",
+        "description": "Printing API documentation",
+        "contact": {
+          "name": ""
+        },
+        "servers": [
+          "http://localhost:8080"
+        ]
+      }
+    },
+    "apis": [
+      "app.js",
+      "./routes/*.js"
+    ]
+  }

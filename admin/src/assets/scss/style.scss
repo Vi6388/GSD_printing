@@ -1,0 +1,490 @@
+/*================================================================================
+	Item Name: MyManager - Vuejs, HTML & Laravel Admin Dashboard Template
+	Version: 2.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+.client-info-set {
+  display: flex;
+  flex-direction: column;
+}
+
+.client-info-set span:nth-child(2) {
+  font-weight: 700;
+}
+
+.cic-dp {
+  position: relative;
+}
+
+.cic-photo-edit {
+  position: absolute;
+  top: 25%;
+  left: 1%;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cic-photo-edit:hover {
+  background-color: rgba(230, 230, 230, 0.452);
+}
+
+.cic-photo-edit-icon {
+  color: #7468f0;
+}
+
+.cic-eye-icon {
+  cursor: pointer;
+  color: #7468f0;
+}
+
+.table-rating {
+  height: 30px;
+  width: 30px;
+  background-color: #7368f034;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-rating span {
+  color: #7468f0;
+  font-weight: 600;
+}
+
+.date-done {
+  padding: 1px;
+  border: 1px solid #03c22d;
+  border-radius: 50%;
+}
+
+.date-miss {
+  padding: 1px;
+  border: 1px solid #cf0505;
+  border-radius: 50%;
+}
+
+.circle {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.text {
+  margin: auto;
+  color: #ffff;
+  font-weight: bold;
+  font-size: small;
+}
+
+.filter-input {
+  width: 250px;
+}
+
+.employee-work-history-table {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  margin: auto;
+  overflow: auto;
+  height: 350px;
+}
+
+.employee-work-history-table > table {
+  width: 100%;
+  min-width: 1280px;
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+#main-table > thead > tr > .headview {
+  min-width: 150px;
+  text-align: center;
+}
+
+.table-scroll thead th {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+th:first-child {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  z-index: 2;
+}
+
+thead th:first-child,
+tfoot th:first-child {
+  z-index: 5;
+}
+
+#table-scroll::-webkit-scrollbar-track {
+  -webkit-box-shadow: none;
+  background-color: #ffffff;
+}
+
+#table-scroll::-webkit-scrollbar {
+  width: 0px;
+  background-color: #ffffff;
+}
+
+#table-scroll::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border: none;
+}
+
+.app-text-chat {
+  width: 35% !important;
+
+  align-items: center;
+
+  padding: 20px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .app-text-chat {
+    width: 100% !important;
+  }
+}
+
+.app-text-userlist:hover {
+  background-color: #f5f5f5;
+}
+
+#emojiContainer {
+  position: 'absolute';
+  bottom: '6%';
+  background-color: aqua;
+}
+
+.chatsMsg {
+  /* height: 100%;
+    position: absolute;
+    bottom: 0;
+     width: 100%;
+
+
+    background-color: aqua; */
+
+  position: absolute;
+  bottom: 0px;
+
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.chat-right {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+  float: right;
+  text-align: right;
+}
+
+.chat-left {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+  float: left;
+  text-align: left;
+}
+
+.chat-body {
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+
+// added custom css
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-style {
+  font-size: 1.5rem;
+  color: #fff;
+  background: #6a5deb;
+  padding: 0.5rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.despost-text-main {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.despost-text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+.automation-add-line {
+  height: 1px;
+  width: 65px;
+  background: #666;
+  position: relative;
+  rotate: 90deg;
+}
+.automation-add-line:before {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: #666;
+  top: 50%;
+  transform: translateY(-55%);
+  border-radius: 50%;
+}
+
+.deposit-amount {
+  text-align: center;
+  margin-top: 20px;
+}
+
+// custom css text
+
+.app-text-chat {
+  width: 35% !important;
+
+  align-items: center;
+
+  padding: 20px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .app-text-chat {
+    width: 100% !important;
+  }
+}
+
+.app-text-userlist:hover {
+  background-color: #f5f5f5;
+}
+
+#emojiContainer {
+  position: 'absolute';
+  bottom: '6%';
+  background-color: aqua;
+}
+
+.chatsMsg {
+  /* height: 100%;
+    position: absolute;
+    bottom: 0;
+     width: 100%;
+
+
+    background-color: aqua; */
+
+  position: absolute;
+  bottom: 0px;
+
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.chat-right {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+  float: right;
+  text-align: right;
+}
+
+.chat-left {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+  float: left;
+  text-align: left;
+}
+
+.chat-body {
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+
+// ** Vertical selecting location
+
+.dropdown-address {
+  &.show .select-location.text-body,
+  .select-location.text-body:hover {
+    color: #c52f2f !important;
+    border: 1px solid #c52f2f !important;
+  }
+}
+.flex-1 {
+  flex: 1 !important;
+}
+.btn-skeleton:hover {
+  color: #c52f2f !important;
+  transform: translate(5px, 0);
+  transition: transform 0.3s ease;
+}
+
+// ** Permission table
+.module.child {
+  padding-left: 20px;
+}
+
+.module:not(.child) {
+  font-size: 1rem;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.event-list-button > a > button {
+  background: #f5f5f5;
+  color: #000;
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+@media only screen and (min-width: 720px) and (max-width: 1080px) {
+  .event-wrapper {
+    font-size: 1.2rem;
+    padding: 0.8rem 0.5em;
+    width: 70%;
+  }
+  .event-wrapper1 {
+    width: 30%;
+  }
+}
+
+@media only screen and (min-width: 1080px) and (max-width: 1380px) {
+  .event-wrapper {
+    font-size: 1.2rem;
+    padding: 0.8rem 0.5em;
+    width: 50%;
+  }
+  .event-wrapper1 {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .event-wrapper {
+    font-size: 1.2rem;
+    padding: 0.8rem 0.5em;
+    width: 55%;
+  }
+  .event-wrapper1 {
+    width: 45%;
+  }
+}
+@media only screen and (min-width: 1380px) and (max-width: 1920px) {
+  .event-wrapper {
+    font-size: 1.2rem;
+    padding: 0.8rem 0.5em;
+    width: 45%;
+  }
+  .event-wrapper1 {
+    width: 55%;
+  }
+}
+.event-view-cricle {
+  width: 42px;
+  height: 42px;
+  background-color: #c52f2f;
+  border-radius: 50%;
+  border: 2px solid rgb(206, 202, 202);
+  box-shadow: 5px #666;
+  margin-top: 5px;
+}
+
+.event-view-verticle-line {
+  border-left: 2px solid #c5c0c0;
+  height: 35px;
+  margin-left: 20px;
+}
+
+.little-tiger-wrapper {
+  border: 1px solid #7a7c7c0d;
+  background: #7a7c7c0d;
+  border-radius: 10px;
+}
+
+.little-tiger-child > h5 {
+  color: #000;
+}
+
+// rohit css
+.scrollbar-container.main-menu-content.ps {
+  background: #333 !important;
+}
+ul.navigation.navigation-main {
+  background: #333 !important;
+}
+.main-menu.menu-light .navigation li a {
+  color: #c9c7d1;
+}
+.navbar-container.d-flex.content {
+  background: #0c90c1;
+}
+.header-navbar .navbar-container ul.navbar-nav li i.ficon, .header-navbar .navbar-container ul.navbar-nav li svg.ficon {
+  color: #fff;
+}
+.header-navbar .navbar-container ul.navbar-nav li i.ficon:hover, .header-navbar .navbar-container ul.navbar-nav li svg.ficon:hover {
+  color: #fff;
+}
+.header-navbar .navbar-container ul.navbar-nav li > a.nav-link {
+  color: #fff;
+}
+.react-select.rs-1.css-b62m3t-container {
+  margin-right: 5px;
+}
+
+
+// css builder
+.canvas-box{
+  border: 3px dashed #ccc;
+}
+.canvas-box::after{
+  background-color: #000;
+}
+.main-img-bx{
+  position: absolute;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.content-inner{
+  padding: 70px 150px;
+}
+.sidebar-builder {
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1000;
+  transition: transform 0.3s ease;
+}
+

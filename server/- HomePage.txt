@@ -1,0 +1,126 @@
+- HomePage
+    total products
+    total category
+    new category
+    lock products
+    products template
+    order status
+    active users
+    inactive users
+    new users
+    total transaciton
+
+- shop
+    all categories
+    sub categories
+    product details
+
+- Create Products
+    product image
+    product name
+    category
+    sub category
+    paper type
+    price
+    discount price
+    lock status
+
+- Category
+    category image
+    category
+    sub category
+    lock status
+
+- Paper Type
+    paper image
+    paper name
+    paper type
+
+- Lock Product Area
+    product
+    category
+    subcategory
+    paper type
+    lock status
+
+- Order Status
+    order id
+    product image
+    product name
+    price
+    discount price
+    username
+    mobile no
+    email
+    order date
+    order time
+    status
+
+- User
+    profile image
+    name
+    mobile no
+    email id
+
+- Product Template
+    template image
+    template name
+    category
+    sub category
+    paper type
+    status
+
+- Transaction list
+    product image
+    product name
+    price
+    discount price
+    username
+    mobile no
+    transaction amount
+    date
+    time status
+
+- Invoice
+    date
+    name
+    type
+    total
+    proof
+
+- Settings
+    Basic info
+        profile details
+            image
+            firstname
+            lastname
+            email
+            phone number
+            address
+            state
+            zip code
+            country
+            language
+            timezone
+            currency
+
+        company details
+            logo image
+            header photo
+            company name
+            corporate name
+            tax id
+            phone number
+            alternative number
+            address
+            state
+            zip code
+            country
+            currency
+
+    Change Password
+    Email Notification
+    Withdrawal
+    Deposit
+    Transaction History
+

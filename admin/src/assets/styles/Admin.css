@@ -1,0 +1,9 @@
+.dropsidebar.dropdown-menu.show {
+  left: 40px !important;
+  top: -100px !important;
+}
+
+.dropmembersidebar.dropdown-menu.show {
+  top: -40px !important;
+  left: -80px !important;
+}/*# sourceMappingURL=Admin.css.map */

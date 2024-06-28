@@ -1,0 +1,138 @@
+@import '../../@core/scss/base/bootstrap-extended/include';
+@import '../../@core/scss/base/components/include';
+
+.tasks-border {
+  width: 100%;
+  margin: 0 0 0 0;
+  border: 1px solid $border-color;
+  border-radius: $card-border-radius;
+  height: calc(100vh - 11.2rem);
+  display: flex;
+  justify-content: space-between;
+  .collapse-horizontal {
+    border-right: 1px solid $border-color;
+    padding: 0px;
+    margin: 0px 1px;
+    .sidebar {
+      width: $menu-expanded-width;
+      height: 100%;
+      .task-sidebar {
+        height: inherit;
+        display: flex;
+        background-color: $white;
+        border-top-left-radius: $card-border-radius;
+        border-bottom-left-radius: $card-border-radius;
+
+        // Sidebar Menu
+        .task-app-menu {
+          height: 100%;
+          overflow: auto;
+          width: 100%;
+          z-index: 3;
+          .add-task {
+            padding: 1.5rem;
+          }
+
+          // Sidebar menu list items
+          .sidebar-menu-list {
+            position: relative;
+            height: calc(100% - 80px);
+          }
+          &::-webkit-scrollbar {
+            width: 8px;
+          }
+
+          /* Track */
+          &::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px grey;
+            border-radius: 10px;
+          }
+
+          /* Handle */
+          &::-webkit-scrollbar-thumb {
+            background: #aaaaaa;
+            border-radius: 10px;
+          }
+
+          /* Handle on hover */
+          &::-webkit-scrollbar-thumb:hover {
+            background: #999999;
+            width: 16px;
+          }
+        }
+        .list-group .list-group-item {
+          padding: 0.58rem 1.5rem;
+          border: 0;
+          font-weight: $font-weight-bold;
+          letter-spacing: 0.4px;
+          border-left: 2px solid transparent;
+          border-radius: 0;
+          + .list-group-item.active {
+            margin-top: 0;
+          }
+          &:hover,
+          &:focus,
+          &.active {
+            background: transparent;
+            color: $primary;
+            height: min-content !important;
+            border-color: #7367f0;
+          }
+        }
+      }
+    }
+  }
+  .sidebar-expand-panel {
+    width: 20px;
+    height: 100%;
+    .btn.btn-flat {
+      border-radius: $card-border-radius;
+      height: inherit;
+      &:hover {
+        background-color: #e8e8e8;
+      }
+    }
+  }
+  .tasks-area {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .workspace-title {
+      padding-inline-end: 7px;
+      display: flex;
+      justify-content: space-between;
+      width: inherit;
+      background-color: $white;
+      border-top-right-radius: $card-border-radius;
+      border-bottom: 1px solid $border-color;
+      .app-workspace-wrapper {
+        width: 95%;
+        margin-right: 5%;
+      }
+      .btn-icon {
+        padding-left: 0;
+        border-radius: 0;
+      }
+    }
+    .tab-header {
+      display: flex;
+      justify-content: left;
+      background-color: $white;
+    }
+    .tab-content {
+      width: 100%;
+      height: 100%;
+      padding: 7px, 5px;
+      overflow: auto;
+      background-color: $white;
+      .active {
+        height: 100%;
+      }
+    }
+  }
+}
+.task-task-list-wrapper {
+  padding: 7px;
+}

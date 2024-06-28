@@ -1,0 +1,95 @@
+.funnelType {
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.funnelType img {
+  height: 60px;
+}
+.funnelType .title {
+  margin-top: 24px;
+  font-size: 20px;
+}
+
+.funnelType.active {
+  border: 2px solid #0BE03A;
+  background-color: #eaf4fe;
+}
+
+.templates_card .title {
+  padding: 1rem;
+  font-size: 16px;
+}
+.templates_card .create_title {
+  padding: 1rem;
+  font-size: 20px;
+  align-self: center;
+}
+.templates_card .truncate-ellipsis {
+  width: 100%;
+  padding: 0 1rem 1rem 1rem;
+}
+.templates_card .text-monospace {
+  max-width: 100%;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  height: 54px;
+  font-size: 12px;
+  color: #878787;
+}
+
+.templates_card.active {
+  border: 2px solid #0BE03A;
+}
+
+.steps {
+  cursor: pointer;
+}
+.steps :first-child:hover {
+  color: rgb(33, 150, 243);
+  background: none;
+}
+.steps div {
+  min-width: 0px;
+}
+.steps:hover {
+  color: rgb(33, 150, 243);
+  background: rgb(234, 244, 254);
+}
+.steps .left-background {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.steps.active {
+  background: rgb(234, 244, 254);
+}
+.steps.active .left-background {
+  min-width: 3px;
+  width: 3px;
+  height: 100%;
+  background: rgb(33, 150, 243);
+}
+.steps.active .right-remove {
+  position: absolute;
+  right: 16px;
+  min-width: 0px;
+}
+
+.template_img {
+  padding: 2rem;
+}
+
+button {
+  border-radius: 5px;
+}
+
+.form-stepper.modal-dialog {
+  max-width: 80%;
+}/*# sourceMappingURL=funnel.css.map */

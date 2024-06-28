@@ -1,0 +1,116 @@
+.detail-box h4 {
+  font-size: 1.5rem !important;
+  font-weight: 600;
+  line-height: 2rem;
+  letter-spacing: normal !important;
+  color: black;
+}
+.detail-box p {
+  font-size: 16px;
+}
+
+img.round-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  margin-right: 15px;
+}
+
+.btn-bx button {
+  padding: 9px !important;
+  margin-left: 10px;
+}
+
+svg.left-p {
+  margin-right: 9px;
+}
+
+.crate-box {
+  padding: 40px 20px;
+  border: 1px solid #000;
+  border-radius: 15px;
+  text-align: center;
+  height: 200px;
+  margin-bottom: 15px;
+}
+
+.crate-box.box-shadow {
+  margin-bottom: 15px;
+  border-radius: 20px;
+  height: 200px;
+  border: none;
+}
+.crate-box.box-shadow img {
+  margin-right: 0px !important;
+  margin-bottom: 10px;
+}
+
+.list-main {
+  margin-top: 30px;
+}
+
+.week_day {
+  display: flex;
+  justify-content: space-between;
+}
+
+.black_doat_circle {
+  background-color: #313131;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  left: -12px;
+  top: 0;
+}
+
+.days_week {
+  font-size: 14px;
+  color: #454545;
+  padding-bottom: 30px;
+}
+
+.right_side_time_table {
+  width: 100%;
+  padding-top: 20px;
+  border-left: 1px solid #e0e0e0;
+  position: relative;
+}
+
+.sub-list {
+  margin-left: 15px;
+}
+
+.modal-dialog.modal-dialog-centered.modal-fullscreen-xl-down {
+  max-width: 800px;
+}
+
+.add-mem {
+  text-align: center;
+  padding: 42px 0px;
+  background: #f5f5f5;
+  border-color: 1px solid #ccc;
+  border: 1px solid rgba(204, 204, 204, 0.2117647059);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 6px 20px;
+  border-radius: 5px;
+}
+
+.he.modal-header h5 {
+  font-size: 18px;
+}
+
+.stp-1 {
+  width: 100%;
+}
+
+.d-flex.justify-content-between.str-1 {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.dynamic-tab {
+  margin-top: 40px !important;
+}/*# sourceMappingURL=user-detail.css.map */

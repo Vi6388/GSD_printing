@@ -1,0 +1,29 @@
+.sidebar-left {
+    background-color: #fff;
+    width: 80%;
+    height: 56vh;
+}
+.sidebar-menu-list {
+    background-color: none;
+}
+.list-group-messages {
+    background-color: #fff;
+}
+[dir] .list-group-item {
+    padding: 0.75rem 1.25rem;
+    background-color: #fff;
+    border: none;
+    border-left: 2px solid #fff;
+}
+[dir] .list-group-item.active {
+    color: #7367f0;
+    background-color: #fff;
+    border: none;
+    border-left: 2px solid #7367f0;
+}
+
+/* Lead Table */
+#row-5 > #cell-1-5 {
+    background-color: rgb(255, 255, 255);
+    color: #7367f0;
+}
